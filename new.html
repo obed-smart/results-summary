@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-2{
+            text-align: center;
+            margin: auto;
+            /* border: 3px solid; */
+            width: 23em;
+            height: 30vh;
+        }
+
+        section{
+            display: flex;
+            width: 15em;
+            justify-content: space-between;
+            margin: 20px;
+  text-align: center;
+            background: coral;
+        }
+        .card-2-section-1 p {
+          display: flex;
+          align-items: center;
+        }
+        .card-2-section-1 .icon::before{
+    content: "";
+  display: inline-block;
+  background-image: url(./assets/images/icon-reaction.svg);
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-size: cover;
+}
+p{
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="card-2">
+        <h3> Summary</h3>
+      <section class="card-2-section-1">
+        <p class="icon">Reaction</p>
+        <p><strong>80</strong> / 100</p>
+      </section>
+      <section class="card-2-section-2">
+        <p>Memory</p>
+        <p><strong>92</strong> / 100</p>
+      </section>
+      <section class="card-2-section-3">
+        <p>Verbal</p>
+        <p><strong>61</strong> / 100</p>
+      </section>
+      <section class="card-2-section-4">
+        <p>Visual</p>
+        <p><strong>72</strong> / 100</p>
+      </section>
+        <button>Continue</button>
+      </div>
+</body>
+</html>
